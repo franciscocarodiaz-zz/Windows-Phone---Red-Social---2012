@@ -1,0 +1,129 @@
+﻿<phone:PhoneApplicationPage
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:controls="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    xmlns:RedSocial_ViewModels="clr-namespace:RedSocial.ViewModels" 
+    xmlns:Microsoft_Phone_Controls_Maps="clr-namespace:Microsoft.Phone.Controls.Maps;assembly=Microsoft.Phone.Controls.Maps" xmlns:System_Device_Location="clr-namespace:System.Device.Location;assembly=System.Device" xmlns:System_Globalization="clr-namespace:System.Globalization;assembly=mscorlib" 
+    x:Class="RedSocial.MainPage" 
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="800"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="False">
+
+	<phone:PhoneApplicationPage.Resources>
+		<DataTemplate x:Key="DataTemplate2">
+			<Grid x:Name="grid" Height="122" Width="436" ScrollViewer.HorizontalScrollBarVisibility="Auto" ScrollViewer.VerticalScrollBarVisibility="Auto">
+				<Grid.Resources>
+					<Storyboard x:Name="Storyboard_Grid">
+						<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="grid">
+							<EasingDoubleKeyFrame KeyTime="0" Value="0.18">
+								<EasingDoubleKeyFrame.EasingFunction>
+									<PowerEase EasingMode="EaseInOut"/>
+								</EasingDoubleKeyFrame.EasingFunction>
+							</EasingDoubleKeyFrame>
+							<EasingDoubleKeyFrame KeyTime="0:0:1" Value="1">
+								<EasingDoubleKeyFrame.EasingFunction>
+									<PowerEase EasingMode="EaseInOut"/>
+								</EasingDoubleKeyFrame.EasingFunction>
+							</EasingDoubleKeyFrame>
+						</DoubleAnimationUsingKeyFrames>
+					</Storyboard>
+				</Grid.Resources>
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition Width="0.046*"/>
+					<ColumnDefinition Width="0.954*"/>
+				</Grid.ColumnDefinitions>
+				<TextBlock Margin="158,8,64,0" TextWrapping="Wrap" d:LayoutOverrides="VerticalAlignment" VerticalAlignment="Top" Height="34" Text="{Binding Name}" Grid.Column="1"/>
+				<TextBlock Margin="158,46,32,24" TextWrapping="Wrap" Text="{Binding Surname}" Grid.Column="1"/>
+				<Image HorizontalAlignment="Left" Margin="8,8,0,8" Width="100" Source="Images/userPicture.png" Grid.Column="1"/>
+			</Grid>
+		</DataTemplate>
+		<Style x:Key="ListBoxItemStyle1" TargetType="ListBoxItem">
+			<Setter Property="Background" Value="Transparent"/>
+			<Setter Property="BorderThickness" Value="0"/>
+			<Setter Property="BorderBrush" Value="Transparent"/>
+			<Setter Property="Padding" Value="0"/>
+			<Setter Property="HorizontalContentAlignment" Value="Left"/>
+			<Setter Property="VerticalContentAlignment" Value="Top"/>
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="ListBoxItem">
+						<Border x:Name="LayoutRoot" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" HorizontalAlignment="{TemplateBinding HorizontalAlignment}" VerticalAlignment="{TemplateBinding VerticalAlignment}" Height="58">
+							<VisualStateManager.VisualStateGroups>
+								<VisualStateGroup x:Name="CommonStates">
+									<VisualState x:Name="Normal"/>
+									<VisualState x:Name="MouseOver"/>
+									<VisualState x:Name="Disabled">
+										<Storyboard>
+											<ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Background" Storyboard.TargetName="LayoutRoot">
+												<DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource TransparentBrush}"/>
+											</ObjectAnimationUsingKeyFrames>
+										</Storyboard>
+									</VisualState>
+								</VisualStateGroup>
+								<VisualStateGroup x:Name="SelectionStates">
+									<VisualState x:Name="Unselected"/>
+									<VisualState x:Name="Selected"/>
+								</VisualStateGroup>
+							</VisualStateManager.VisualStateGroups>
+							<Grid Width="400">
+								<TextBlock TextWrapping="Wrap" Text="{Binding Name}" Margin="75,0,70,28" DataContext="{Binding}"/>
+								<Image HorizontalAlignment="Left" Width="56" Source="Images/userPicture.png"/>
+								<TextBlock TextWrapping="Wrap" Text="{Binding Surname}" Margin="75,25,70,3" DataContext="{Binding}"/>
+							</Grid>
+						</Border>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+	</phone:PhoneApplicationPage.Resources>
+
+    <!--Las aplicaciones basadas en Panorama no deben mostrar un elemento ApplicationBar-->
+
+	<phone:PhoneApplicationPage.FontFamily>
+		<StaticResource ResourceKey="PhoneFontFamilyNormal"/>
+	</phone:PhoneApplicationPage.FontFamily>
+	<phone:PhoneApplicationPage.FontSize>
+		<StaticResource ResourceKey="PhoneFontSizeNormal"/>
+	</phone:PhoneApplicationPage.FontSize>
+	<phone:PhoneApplicationPage.Foreground>
+		<StaticResource ResourceKey="PhoneForegroundBrush"/>
+	</phone:PhoneApplicationPage.Foreground>
+
+    <!--LayoutRoot contiene la cuadrícula raíz donde se coloca el resto del contenido de la página-->
+    <Grid x:Name="LayoutRoot" d:DataContext="{d:DesignData /SampleData/FriendsViewModelSampleData.xaml}">
+        <controls:Panorama Title="mi aplicación" Margin="0,8,0,-8">
+
+            <!--Elemento Panorama uno-->
+            <controls:PanoramaItem Header="elemento1">
+                <Grid>
+                	<ListBox x:Name="listaAmigos" Margin="8" SelectionChanged="ListBox_SelectionChanged" ItemContainerStyle="{StaticResource ListBoxItemStyle1}" IsEnabled="True" DataContext="{Binding}" ItemsSource="{Binding Items}"/>
+                </Grid>
+            </controls:PanoramaItem>
+
+            <!--Elemento Panorama dos-->
+            <controls:PanoramaItem Header="elemento2">
+                <Grid>
+                	<Microsoft_Phone_Controls_Maps:Map Margin="8" CredentialsProvider="AjDMu4GZbEKMUDkzf9YsndSaA49708fwwj_48vd0HbnKLUE99gn-k4TJXYFcevIC" ZoomLevel="15" ZoomBarVisibility="Visible" CopyrightVisibility="Collapsed">
+                		<Microsoft_Phone_Controls_Maps:Map.Center>
+                			<System_Device_Location:GeoCoordinate Altitude="NaN" Course="NaN" HorizontalAccuracy="NaN" Longitude="-6" Latitude="37" Speed="NaN" VerticalAccuracy="NaN"/>
+                		</Microsoft_Phone_Controls_Maps:Map.Center>
+                		<Microsoft_Phone_Controls_Maps:Map.Mode>
+                			<Microsoft_Phone_Controls_Maps:AerialMode AnimationLevel="None" CredentialsProvider="{x:Null}" ShouldDisplayFadingLabels="False" ShouldDisplayLabels="False" ShouldRestrictMaxZoomLevel="False" Scale="6752.2295342637435" UpSampleLevelDelta="7" ViewportSize="0,0" ZoomLevel="1">
+                				<Microsoft_Phone_Controls_Maps:AerialMode.Center>
+                					<System_Device_Location:GeoCoordinate Altitude="NaN" Course="NaN" HorizontalAccuracy="NaN" Longitude="-180" Latitude="85.051128" Speed="NaN" VerticalAccuracy="NaN"/>
+                				</Microsoft_Phone_Controls_Maps:AerialMode.Center>
+                				
+                			</Microsoft_Phone_Controls_Maps:AerialMode>
+                		</Microsoft_Phone_Controls_Maps:Map.Mode>
+                		<Microsoft_Phone_Controls_Maps:MapLayer x:Name="mapLayerMyLocation"/>
+                	</Microsoft_Phone_Controls_Maps:Map>
+                </Grid>
+            </controls:PanoramaItem>
+        </controls:Panorama>
+    </Grid>
+
+</phone:PhoneApplicationPage>

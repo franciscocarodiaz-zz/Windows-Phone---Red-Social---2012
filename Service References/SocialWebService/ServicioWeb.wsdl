@@ -1,0 +1,756 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://150.214.188.47/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://150.214.188.47/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://150.214.188.47/">
+      <s:element name="checkUser">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="userID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="checkUserResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="checkUserResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AddUser">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="userID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="name" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="surname" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="address" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="email" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="birthDate" type="s:dateTime" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AddUserResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="AddUserResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteUser">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="userID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteUserResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="DeleteUserResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateUser">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="userID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="name" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="surname" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="address" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="email" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="birthDate" type="s:dateTime" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="lastPassword" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateUserResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UpdateUserResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUserInformation">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="userID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUserInformationResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUserInformationResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetFriendsInformation">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="userID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetFriendsInformationResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetFriendsInformationResult" type="tns:ArrayOfArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="ArrayOfString" nillable="true" type="tns:ArrayOfString" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="AddFriend">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="userID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="friendID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AddFriendResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="AddFriendResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AddFriendBidirectional">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="userID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="friendID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AddFriendBidirectionalResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="AddFriendBidirectionalResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteFriend">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="userID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="friendID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteFriendResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="DeleteFriendResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteFriendBidirectional">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="userID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="friendID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteFriendBidirectionalResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="DeleteFriendBidirectionalResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateVisibility">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="userID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="friendID" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="visibility" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateVisibilityResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UpdateVisibilityResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetFriends">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="userID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetFriendsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetFriendsResult" type="tns:ArrayOfArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetFriendsByDistance">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="userID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="radioBusqueda" type="s:float" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetFriendsByDistanceResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetFriendsByDistanceResult" type="tns:ArrayOfArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AddUserLocation">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="userID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="latitude" type="s:float" />
+            <s:element minOccurs="1" maxOccurs="1" name="longitude" type="s:float" />
+            <s:element minOccurs="1" maxOccurs="1" name="altitude" type="s:float" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AddUserLocationResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="AddUserLocationResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetLastUserLocation">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="userID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetLastUserLocationResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetLastUserLocationResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetLastNUserLocation">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="userID" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="N" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetLastNUserLocationResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetLastNUserLocationResult" type="tns:ArrayOfArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="checkUserSoapIn">
+    <wsdl:part name="parameters" element="tns:checkUser" />
+  </wsdl:message>
+  <wsdl:message name="checkUserSoapOut">
+    <wsdl:part name="parameters" element="tns:checkUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="AddUserSoapIn">
+    <wsdl:part name="parameters" element="tns:AddUser" />
+  </wsdl:message>
+  <wsdl:message name="AddUserSoapOut">
+    <wsdl:part name="parameters" element="tns:AddUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="DeleteUserSoapIn">
+    <wsdl:part name="parameters" element="tns:DeleteUser" />
+  </wsdl:message>
+  <wsdl:message name="DeleteUserSoapOut">
+    <wsdl:part name="parameters" element="tns:DeleteUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateUserSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateUser" />
+  </wsdl:message>
+  <wsdl:message name="UpdateUserSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUserInformationSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUserInformation" />
+  </wsdl:message>
+  <wsdl:message name="GetUserInformationSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUserInformationResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetFriendsInformationSoapIn">
+    <wsdl:part name="parameters" element="tns:GetFriendsInformation" />
+  </wsdl:message>
+  <wsdl:message name="GetFriendsInformationSoapOut">
+    <wsdl:part name="parameters" element="tns:GetFriendsInformationResponse" />
+  </wsdl:message>
+  <wsdl:message name="AddFriendSoapIn">
+    <wsdl:part name="parameters" element="tns:AddFriend" />
+  </wsdl:message>
+  <wsdl:message name="AddFriendSoapOut">
+    <wsdl:part name="parameters" element="tns:AddFriendResponse" />
+  </wsdl:message>
+  <wsdl:message name="AddFriendBidirectionalSoapIn">
+    <wsdl:part name="parameters" element="tns:AddFriendBidirectional" />
+  </wsdl:message>
+  <wsdl:message name="AddFriendBidirectionalSoapOut">
+    <wsdl:part name="parameters" element="tns:AddFriendBidirectionalResponse" />
+  </wsdl:message>
+  <wsdl:message name="DeleteFriendSoapIn">
+    <wsdl:part name="parameters" element="tns:DeleteFriend" />
+  </wsdl:message>
+  <wsdl:message name="DeleteFriendSoapOut">
+    <wsdl:part name="parameters" element="tns:DeleteFriendResponse" />
+  </wsdl:message>
+  <wsdl:message name="DeleteFriendBidirectionalSoapIn">
+    <wsdl:part name="parameters" element="tns:DeleteFriendBidirectional" />
+  </wsdl:message>
+  <wsdl:message name="DeleteFriendBidirectionalSoapOut">
+    <wsdl:part name="parameters" element="tns:DeleteFriendBidirectionalResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateVisibilitySoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateVisibility" />
+  </wsdl:message>
+  <wsdl:message name="UpdateVisibilitySoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateVisibilityResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetFriendsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetFriends" />
+  </wsdl:message>
+  <wsdl:message name="GetFriendsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetFriendsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetFriendsByDistanceSoapIn">
+    <wsdl:part name="parameters" element="tns:GetFriendsByDistance" />
+  </wsdl:message>
+  <wsdl:message name="GetFriendsByDistanceSoapOut">
+    <wsdl:part name="parameters" element="tns:GetFriendsByDistanceResponse" />
+  </wsdl:message>
+  <wsdl:message name="AddUserLocationSoapIn">
+    <wsdl:part name="parameters" element="tns:AddUserLocation" />
+  </wsdl:message>
+  <wsdl:message name="AddUserLocationSoapOut">
+    <wsdl:part name="parameters" element="tns:AddUserLocationResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetLastUserLocationSoapIn">
+    <wsdl:part name="parameters" element="tns:GetLastUserLocation" />
+  </wsdl:message>
+  <wsdl:message name="GetLastUserLocationSoapOut">
+    <wsdl:part name="parameters" element="tns:GetLastUserLocationResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetLastNUserLocationSoapIn">
+    <wsdl:part name="parameters" element="tns:GetLastNUserLocation" />
+  </wsdl:message>
+  <wsdl:message name="GetLastNUserLocationSoapOut">
+    <wsdl:part name="parameters" element="tns:GetLastNUserLocationResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ServicioWebSoap">
+    <wsdl:operation name="checkUser">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Comprueba la clave del usuario y si éste existe. Devuelve 1 si el usuario y la clave son correctas, -2 si el usuario no existe, -3 si la clave no es correcta o -1 en caso de error</wsdl:documentation>
+      <wsdl:input message="tns:checkUserSoapIn" />
+      <wsdl:output message="tns:checkUserSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AddUser">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Inserta un usuario en la base de datos. Devuelve 1 si la operación se ha realizado correctamente, -1 si el usuario no existe y -2 en caso de error.</wsdl:documentation>
+      <wsdl:input message="tns:AddUserSoapIn" />
+      <wsdl:output message="tns:AddUserSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteUser">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Elimina un usuario de la base de datos. Devuelve 1 si la operación se ha realizado correctamente, -1 si el usuario no existe, -3 si la clave no es correcta o -2 en caso de error.</wsdl:documentation>
+      <wsdl:input message="tns:DeleteUserSoapIn" />
+      <wsdl:output message="tns:DeleteUserSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateUser">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Actualiza los datos de un usuario de la base de datos. Devuelve 1 si la operación se ha realizado correctamente, -1 si el usuario no existe, -3 si la clave no es correcta o -2 en caso de error.</wsdl:documentation>
+      <wsdl:input message="tns:UpdateUserSoapIn" />
+      <wsdl:output message="tns:UpdateUserSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUserInformation">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Devuelve un array con los datos del usuario en el siguiente orden: nombre, apellidos, direccion, email y fecha de nacimiento. Devuelve null si se ha producido algún error o si el usuario no existe.</wsdl:documentation>
+      <wsdl:input message="tns:GetUserInformationSoapIn" />
+      <wsdl:output message="tns:GetUserInformationSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFriendsInformation">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Devuelve un array bidimensional con los datos de cada amigo del usuario en el siguiente orden: nombre, apellidos, direccion, email, fecha de nacimiento, latitud, longitud y altitud. Devuelve null si se ha producido algún error o si el usuario no existe.</wsdl:documentation>
+      <wsdl:input message="tns:GetFriendsInformationSoapIn" />
+      <wsdl:output message="tns:GetFriendsInformationSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AddFriend">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Añade una relación de amistad a la base de datos. La relación es unidireccional. Devuelve 1 si la operación se ha realizado correctamente, -1 si el usuario no existe, -3 si la clave no es correcta, -4 si el ID del amigo es el mismo que el del usuario, -5 si ya existe la relación de amistad o -2 en caso de error.</wsdl:documentation>
+      <wsdl:input message="tns:AddFriendSoapIn" />
+      <wsdl:output message="tns:AddFriendSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AddFriendBidirectional">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Añade una relación de amistad a la base de datos. La relación es bidireccional. Devuelve 1 si la operación se ha realizado correctamente, -1 si el usuario no existe, -3 si la clave no es correcta, -4 si el ID del amigo es el mismo que el del usuario, -5 si ya existe la relación de amistad o -2 en caso de error.</wsdl:documentation>
+      <wsdl:input message="tns:AddFriendBidirectionalSoapIn" />
+      <wsdl:output message="tns:AddFriendBidirectionalSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteFriend">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Elimina una relación de amistad entre dos usuarios. La eliminación es unidireccional. Devuelve 1 si la operación se ha realizado correctamente, -1 si la contraseña no es correcta, -3 si no existe la relación de amistad o -2 en caso de error.</wsdl:documentation>
+      <wsdl:input message="tns:DeleteFriendSoapIn" />
+      <wsdl:output message="tns:DeleteFriendSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteFriendBidirectional">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Elimina una relación de amistad entre dos usuarios. La eliminación es bidireccional. Devuelve 1 si la operación se ha realizado correctamente, -1 si la contraseña no es correcta, -3 si no existe la relación de amistad o -2 en caso de error.</wsdl:documentation>
+      <wsdl:input message="tns:DeleteFriendBidirectionalSoapIn" />
+      <wsdl:output message="tns:DeleteFriendBidirectionalSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateVisibility">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Actualiza el estado de la visibilidad de la relación de amistad. La actualización es unidireccional. Devuelve 1 si la operación se ha realizado correctamente, -1 si la contraseña no es correcta, -3 si no existe la relación de amistad o -2 en caso de error.</wsdl:documentation>
+      <wsdl:input message="tns:UpdateVisibilitySoapIn" />
+      <wsdl:output message="tns:UpdateVisibilitySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFriends">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Devuelve un array bidimensional en el que cada fila representa a un amigo del usuario. En la primera columna tenemos su ID y en la segunda la visibilidad</wsdl:documentation>
+      <wsdl:input message="tns:GetFriendsSoapIn" />
+      <wsdl:output message="tns:GetFriendsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFriendsByDistance">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Devuelve un array bidimensional en el que cada fila representa a un amigo del usuario que se encuentra dentro del radio de búsqueda especificado. En la primera columna tenemos su ID, en la segunda la latitud, en la tercera la longitud, en la cuarta la altitud y en la quinta la ditancia.</wsdl:documentation>
+      <wsdl:input message="tns:GetFriendsByDistanceSoapIn" />
+      <wsdl:output message="tns:GetFriendsByDistanceSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AddUserLocation">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Añade una nueva posición al historial del usuario con la fecha actual. Devuelve 1 si la operación se ha realizado correctamente, -1 si el usuario no existe, -3 si la clave no es correcta o -2 en caso de error.</wsdl:documentation>
+      <wsdl:input message="tns:AddUserLocationSoapIn" />
+      <wsdl:output message="tns:AddUserLocationSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLastUserLocation">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Obtiene la última posición conocida de un usuario así como la fecha de esta. Esta infomación se devuelve en un array de 4 posiciones: latitud, longitud, altitud y fecha</wsdl:documentation>
+      <wsdl:input message="tns:GetLastUserLocationSoapIn" />
+      <wsdl:output message="tns:GetLastUserLocationSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLastNUserLocation">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Obtiene las últimas N localizaciones del usuario en una matriz bidimensional. Las filas representas cada una de las N localizaciones y cada columna la latitud, longitud, altitud y fecha respectivamente.</wsdl:documentation>
+      <wsdl:input message="tns:GetLastNUserLocationSoapIn" />
+      <wsdl:output message="tns:GetLastNUserLocationSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ServicioWebSoap" type="tns:ServicioWebSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="checkUser">
+      <soap:operation soapAction="http://150.214.188.47/checkUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddUser">
+      <soap:operation soapAction="http://150.214.188.47/AddUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteUser">
+      <soap:operation soapAction="http://150.214.188.47/DeleteUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateUser">
+      <soap:operation soapAction="http://150.214.188.47/UpdateUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserInformation">
+      <soap:operation soapAction="http://150.214.188.47/GetUserInformation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFriendsInformation">
+      <soap:operation soapAction="http://150.214.188.47/GetFriendsInformation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddFriend">
+      <soap:operation soapAction="http://150.214.188.47/AddFriend" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddFriendBidirectional">
+      <soap:operation soapAction="http://150.214.188.47/AddFriendBidirectional" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteFriend">
+      <soap:operation soapAction="http://150.214.188.47/DeleteFriend" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteFriendBidirectional">
+      <soap:operation soapAction="http://150.214.188.47/DeleteFriendBidirectional" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateVisibility">
+      <soap:operation soapAction="http://150.214.188.47/UpdateVisibility" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFriends">
+      <soap:operation soapAction="http://150.214.188.47/GetFriends" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFriendsByDistance">
+      <soap:operation soapAction="http://150.214.188.47/GetFriendsByDistance" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddUserLocation">
+      <soap:operation soapAction="http://150.214.188.47/AddUserLocation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLastUserLocation">
+      <soap:operation soapAction="http://150.214.188.47/GetLastUserLocation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLastNUserLocation">
+      <soap:operation soapAction="http://150.214.188.47/GetLastNUserLocation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ServicioWebSoap12" type="tns:ServicioWebSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="checkUser">
+      <soap12:operation soapAction="http://150.214.188.47/checkUser" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddUser">
+      <soap12:operation soapAction="http://150.214.188.47/AddUser" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteUser">
+      <soap12:operation soapAction="http://150.214.188.47/DeleteUser" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateUser">
+      <soap12:operation soapAction="http://150.214.188.47/UpdateUser" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserInformation">
+      <soap12:operation soapAction="http://150.214.188.47/GetUserInformation" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFriendsInformation">
+      <soap12:operation soapAction="http://150.214.188.47/GetFriendsInformation" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddFriend">
+      <soap12:operation soapAction="http://150.214.188.47/AddFriend" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddFriendBidirectional">
+      <soap12:operation soapAction="http://150.214.188.47/AddFriendBidirectional" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteFriend">
+      <soap12:operation soapAction="http://150.214.188.47/DeleteFriend" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteFriendBidirectional">
+      <soap12:operation soapAction="http://150.214.188.47/DeleteFriendBidirectional" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateVisibility">
+      <soap12:operation soapAction="http://150.214.188.47/UpdateVisibility" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFriends">
+      <soap12:operation soapAction="http://150.214.188.47/GetFriends" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFriendsByDistance">
+      <soap12:operation soapAction="http://150.214.188.47/GetFriendsByDistance" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddUserLocation">
+      <soap12:operation soapAction="http://150.214.188.47/AddUserLocation" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLastUserLocation">
+      <soap12:operation soapAction="http://150.214.188.47/GetLastUserLocation" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLastNUserLocation">
+      <soap12:operation soapAction="http://150.214.188.47/GetLastNUserLocation" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ServicioWeb">
+    <wsdl:port name="ServicioWebSoap" binding="tns:ServicioWebSoap">
+      <soap:address location="http://150.214.188.47:8080/ServicioWeb.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ServicioWebSoap12" binding="tns:ServicioWebSoap12">
+      <soap12:address location="http://150.214.188.47:8080/ServicioWeb.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

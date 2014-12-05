@@ -1,0 +1,39 @@
+﻿<Application
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:sys="clr-namespace:System;assembly=mscorlib" 
+    xmlns:RedSocial_ViewModels="clr-namespace:RedSocial.ViewModels" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:Microsoft_Phone_Controls_Maps="clr-namespace:Microsoft.Phone.Controls.Maps;assembly=Microsoft.Phone.Controls.Maps" mc:Ignorable="d" 
+    x:Class="RedSocial.App"
+    >
+
+    <!--Recursos de la aplicación-->
+    <Application.Resources>
+    	<ResourceDictionary>
+    		<ResourceDictionary.MergedDictionaries>
+    			<ResourceDictionary Source="AppResources.es-ES.xaml"/>
+    		</ResourceDictionary.MergedDictionaries>
+    		<ControlTemplate x:Key="PushpinFriend" TargetType="Microsoft_Phone_Controls_Maps:Pushpin">
+    			<Image Source="Images/pushpinFriend.png" Margin="0,0,0,-1" Stretch="Fill"/>
+    		</ControlTemplate>
+			<ControlTemplate x:Key="PushpinMyLocation" TargetType="Microsoft_Phone_Controls_Maps:Pushpin">
+    			<Image Source="Images/myLocation.png" Margin="0,0,0,-1" Stretch="Fill" Width="40" Height="40" RenderTransformOrigin="-0.279,0.311" HorizontalAlignment="Left" VerticalAlignment="Bottom"/>
+    		</ControlTemplate>
+			<ControlTemplate x:Key="PushpinMyLocationTemplate2" TargetType="Microsoft_Phone_Controls_Maps:Pushpin">
+				<Image Source="Images/myLocation.png" Width="60" Height="60"/>
+			</ControlTemplate>
+			<ControlTemplate x:Key="PushpinMyLocationTemplate" TargetType="Microsoft_Phone_Controls_Maps:Pushpin">
+				<Image Source="Images/myLocation.png"/>
+			</ControlTemplate>
+    	</ResourceDictionary>
+    </Application.Resources>
+
+    <Application.ApplicationLifetimeObjects>
+        <!--Objeto requerido que controla los eventos de duración de la aplicación-->
+    	<shell:PhoneApplicationService 
+    		Launching="Application_Launching" Closing="Application_Closing" 
+    		Activated="Application_Activated" Deactivated="Application_Deactivated"/>
+    </Application.ApplicationLifetimeObjects>
+
+</Application>

@@ -1,0 +1,358 @@
+C:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\ApplicationIcon.png
+C:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\Background.png
+C:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\RedSocial.dll
+C:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\RedSocial.pdb
+C:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\AppManifest.xaml
+C:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\RedSocial.xap
+C:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\Microsoft.Phone.Controls.dll
+C:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\Microsoft.Phone.Controls.xml
+C:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\obj\Debug\RedSocial.g.resources
+C:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\obj\Debug\RedSocial.dll
+C:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\obj\Debug\RedSocial.pdb
+C:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\obj\Debug\XapCacheFile.xml
+C:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\Microsoft.Advertising.Mobile.dll
+C:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\Microsoft.Advertising.Mobile.UI.dll
+C:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\Microsoft.Advertising.Mobile.UI.xml
+C:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\cs-CZ\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\da-DK\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\de-DE\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\el-GR\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\en-GB\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\es-ES\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\fi-FI\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\fr-FR\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\hu-HU\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\it-IT\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\ja-JP\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\ko-KR\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\nb-NO\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\nl-NL\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\pl-PL\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\pt-BR\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\pt-PT\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\ru-RU\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\sv-SE\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\zh-CN\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\zh-TW\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\Microsoft.Phone.Controls.Maps.dll
+C:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\Microsoft.Phone.Controls.Maps.xml
+C:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\Microsoft.Phone.Controls.Toolkit.dll
+C:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\Microsoft.Phone.Controls.Toolkit.pdb
+C:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\Microsoft.Phone.Controls.Toolkit.xml
+C:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\obj\Debug\App.g.i.cs
+C:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\obj\Debug\LoginRegistroPage.g.i.cs
+C:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\obj\Debug\MainPage.g.i.cs
+C:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\obj\Debug\RedSocial.StringsResource.resources
+C:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\Microsoft.Expression.Drawing.dll
+C:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\Microsoft.Expression.Drawing.xml
+C:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\System.Windows.Interactivity.xml
+C:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\de\System.Windows.Interactivity.resources.dll
+C:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\en\System.Windows.Interactivity.resources.dll
+C:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\es\System.Windows.Interactivity.resources.dll
+C:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\it\System.Windows.Interactivity.resources.dll
+C:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\obj\Debug\RedSocial.csprojResolveAssemblyReference.cache
+C:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\obj\Debug\RedSocial.csproj.GenerateResource.Cache
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\ApplicationIcon.png
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\Background.png
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\RedSocial.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\RedSocial.pdb
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\AppManifest.xaml
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\RedSocial.xap
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\Microsoft.Advertising.Mobile.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\Microsoft.Advertising.Mobile.UI.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\Microsoft.Expression.Drawing.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\Microsoft.Expression.Interactions.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\Microsoft.Phone.Controls.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\Microsoft.Phone.Controls.Maps.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\System.Windows.Interactivity.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\Microsoft.Advertising.Mobile.UI.xml
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\Microsoft.Expression.Drawing.xml
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\Microsoft.Expression.Interactions.xml
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\Microsoft.Phone.Controls.xml
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\Microsoft.Phone.Controls.Maps.xml
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\System.Windows.Interactivity.xml
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\cs-CZ\Microsoft.Advertising.Mobile.resources.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\da-DK\Microsoft.Advertising.Mobile.resources.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\de-DE\Microsoft.Advertising.Mobile.resources.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\el-GR\Microsoft.Advertising.Mobile.resources.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\en-GB\Microsoft.Advertising.Mobile.resources.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\es-ES\Microsoft.Advertising.Mobile.resources.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\fi-FI\Microsoft.Advertising.Mobile.resources.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\fr-FR\Microsoft.Advertising.Mobile.resources.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\hu-HU\Microsoft.Advertising.Mobile.resources.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\it-IT\Microsoft.Advertising.Mobile.resources.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\ja-JP\Microsoft.Advertising.Mobile.resources.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\ko-KR\Microsoft.Advertising.Mobile.resources.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\nb-NO\Microsoft.Advertising.Mobile.resources.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\nl-NL\Microsoft.Advertising.Mobile.resources.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\pl-PL\Microsoft.Advertising.Mobile.resources.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\pt-BR\Microsoft.Advertising.Mobile.resources.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\pt-PT\Microsoft.Advertising.Mobile.resources.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\ru-RU\Microsoft.Advertising.Mobile.resources.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\sv-SE\Microsoft.Advertising.Mobile.resources.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\zh-CN\Microsoft.Advertising.Mobile.resources.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\zh-TW\Microsoft.Advertising.Mobile.resources.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\de\System.Windows.Interactivity.resources.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\en\System.Windows.Interactivity.resources.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\es\System.Windows.Interactivity.resources.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\fr\System.Windows.Interactivity.resources.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\it\System.Windows.Interactivity.resources.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\ja\System.Windows.Interactivity.resources.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\ko\System.Windows.Interactivity.resources.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\Bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\obj\Debug\ResolveAssemblyReference.cache
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\obj\Debug\RedSocial.g.resources
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\obj\Debug\RedSocial.StringsResource.resources
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\obj\Debug\RedSocial.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\obj\Debug\RedSocial.pdb
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\obj\Debug\XapCacheFile.xml
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\obj\Debug\GenerateResource.read.1.tlog
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\obj\Debug\GenerateResource.write.1.tlog
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\obj\Debug\GenerateResource.read.0.tlog
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\obj\Debug\GenerateResource.write.0.tlog
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\obj\Debug\App.g.i.cs
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\obj\Debug\AddFriend.g.i.cs
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\obj\Debug\FriendInformationPage.g.i.cs
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\obj\Debug\LoginRegistroPage.g.i.cs
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial\RedSocial\obj\Debug\MainPage.g.i.cs
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial - copia\RedSocial\obj\Debug\ResolveAssemblyReference.cache
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial - copia\RedSocial\obj\Debug\App.g.i.cs
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial - copia\RedSocial\obj\Debug\LoginRegistroPage.g.i.cs
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial - copia\RedSocial\obj\Debug\RedSocial.g.resources
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial - copia\RedSocial\obj\Debug\RedSocial.StringsResource.resources
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial - copia\RedSocial\obj\Debug\GenerateResource.read.0.tlog
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial - copia\RedSocial\obj\Debug\GenerateResource.read.1.tlog
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial - copia\RedSocial\obj\Debug\GenerateResource.write.0.tlog
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial - copia\RedSocial\obj\Debug\GenerateResource.write.1.tlog
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial - copia\RedSocial\obj\Debug\RedSocial.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial - copia\RedSocial\obj\Debug\RedSocial.pdb
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial - copia\RedSocial\Bin\Debug\ApplicationIcon.png
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial - copia\RedSocial\Bin\Debug\Background.png
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial - copia\RedSocial\Bin\Debug\RedSocial.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial - copia\RedSocial\Bin\Debug\RedSocial.pdb
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial - copia\RedSocial\Bin\Debug\AppManifest.xaml
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial - copia\RedSocial\Bin\Debug\RedSocial.xap
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial - copia\RedSocial\Bin\Debug\Microsoft.Advertising.Mobile.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial - copia\RedSocial\Bin\Debug\Microsoft.Advertising.Mobile.UI.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial - copia\RedSocial\Bin\Debug\Microsoft.Expression.Drawing.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial - copia\RedSocial\Bin\Debug\Microsoft.Expression.Interactions.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial - copia\RedSocial\Bin\Debug\Microsoft.Phone.Controls.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial - copia\RedSocial\Bin\Debug\Microsoft.Phone.Controls.Maps.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial - copia\RedSocial\Bin\Debug\System.Windows.Interactivity.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial - copia\RedSocial\Bin\Debug\Microsoft.Advertising.Mobile.UI.xml
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial - copia\RedSocial\Bin\Debug\Microsoft.Expression.Drawing.xml
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial - copia\RedSocial\Bin\Debug\Microsoft.Expression.Interactions.xml
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial - copia\RedSocial\Bin\Debug\Microsoft.Phone.Controls.xml
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial - copia\RedSocial\Bin\Debug\Microsoft.Phone.Controls.Maps.xml
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial - copia\RedSocial\Bin\Debug\System.Windows.Interactivity.xml
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial - copia\RedSocial\Bin\Debug\cs-CZ\Microsoft.Advertising.Mobile.resources.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial - copia\RedSocial\Bin\Debug\da-DK\Microsoft.Advertising.Mobile.resources.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial - copia\RedSocial\Bin\Debug\de-DE\Microsoft.Advertising.Mobile.resources.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial - copia\RedSocial\Bin\Debug\el-GR\Microsoft.Advertising.Mobile.resources.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial - copia\RedSocial\Bin\Debug\en-GB\Microsoft.Advertising.Mobile.resources.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial - copia\RedSocial\Bin\Debug\es-ES\Microsoft.Advertising.Mobile.resources.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial - copia\RedSocial\Bin\Debug\fi-FI\Microsoft.Advertising.Mobile.resources.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial - copia\RedSocial\Bin\Debug\fr-FR\Microsoft.Advertising.Mobile.resources.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial - copia\RedSocial\Bin\Debug\hu-HU\Microsoft.Advertising.Mobile.resources.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial - copia\RedSocial\Bin\Debug\it-IT\Microsoft.Advertising.Mobile.resources.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial - copia\RedSocial\Bin\Debug\ja-JP\Microsoft.Advertising.Mobile.resources.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial - copia\RedSocial\Bin\Debug\ko-KR\Microsoft.Advertising.Mobile.resources.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial - copia\RedSocial\Bin\Debug\nb-NO\Microsoft.Advertising.Mobile.resources.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial - copia\RedSocial\Bin\Debug\nl-NL\Microsoft.Advertising.Mobile.resources.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial - copia\RedSocial\Bin\Debug\pl-PL\Microsoft.Advertising.Mobile.resources.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial - copia\RedSocial\Bin\Debug\pt-BR\Microsoft.Advertising.Mobile.resources.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial - copia\RedSocial\Bin\Debug\pt-PT\Microsoft.Advertising.Mobile.resources.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial - copia\RedSocial\Bin\Debug\ru-RU\Microsoft.Advertising.Mobile.resources.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial - copia\RedSocial\Bin\Debug\sv-SE\Microsoft.Advertising.Mobile.resources.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial - copia\RedSocial\Bin\Debug\zh-CN\Microsoft.Advertising.Mobile.resources.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial - copia\RedSocial\Bin\Debug\zh-TW\Microsoft.Advertising.Mobile.resources.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial - copia\RedSocial\Bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial - copia\RedSocial\Bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial - copia\RedSocial\Bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial - copia\RedSocial\Bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial - copia\RedSocial\Bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial - copia\RedSocial\Bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial - copia\RedSocial\Bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial - copia\RedSocial\Bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial - copia\RedSocial\Bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial - copia\RedSocial\Bin\Debug\de\System.Windows.Interactivity.resources.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial - copia\RedSocial\Bin\Debug\en\System.Windows.Interactivity.resources.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial - copia\RedSocial\Bin\Debug\es\System.Windows.Interactivity.resources.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial - copia\RedSocial\Bin\Debug\fr\System.Windows.Interactivity.resources.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial - copia\RedSocial\Bin\Debug\it\System.Windows.Interactivity.resources.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial - copia\RedSocial\Bin\Debug\ja\System.Windows.Interactivity.resources.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial - copia\RedSocial\Bin\Debug\ko\System.Windows.Interactivity.resources.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial - copia\RedSocial\Bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial - copia\RedSocial\Bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+D:\Users\Luismi\Universidad\Docencia\2011-2012\Máster DAIDM\WP7\Implementaciones nueva\RedSocial - copia\RedSocial\obj\Debug\XapCacheFile.xml
+C:\Users\practica\Desktop\RedSocial - parcial\RedSocial\Bin\Debug\ApplicationIcon.png
+C:\Users\practica\Desktop\RedSocial - parcial\RedSocial\Bin\Debug\Background.png
+C:\Users\practica\Desktop\RedSocial - parcial\RedSocial\Bin\Debug\RedSocial.dll
+C:\Users\practica\Desktop\RedSocial - parcial\RedSocial\Bin\Debug\RedSocial.pdb
+C:\Users\practica\Desktop\RedSocial - parcial\RedSocial\Bin\Debug\AppManifest.xaml
+C:\Users\practica\Desktop\RedSocial - parcial\RedSocial\Bin\Debug\RedSocial.xap
+C:\Users\practica\Desktop\RedSocial - parcial\RedSocial\Bin\Debug\Microsoft.Advertising.Mobile.dll
+C:\Users\practica\Desktop\RedSocial - parcial\RedSocial\Bin\Debug\Microsoft.Advertising.Mobile.UI.dll
+C:\Users\practica\Desktop\RedSocial - parcial\RedSocial\Bin\Debug\Microsoft.Expression.Drawing.dll
+C:\Users\practica\Desktop\RedSocial - parcial\RedSocial\Bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\practica\Desktop\RedSocial - parcial\RedSocial\Bin\Debug\Microsoft.Phone.Controls.dll
+C:\Users\practica\Desktop\RedSocial - parcial\RedSocial\Bin\Debug\Microsoft.Phone.Controls.Maps.dll
+C:\Users\practica\Desktop\RedSocial - parcial\RedSocial\Bin\Debug\System.Windows.Interactivity.dll
+C:\Users\practica\Desktop\RedSocial - parcial\RedSocial\Bin\Debug\Microsoft.Advertising.Mobile.UI.xml
+C:\Users\practica\Desktop\RedSocial - parcial\RedSocial\Bin\Debug\Microsoft.Expression.Drawing.xml
+C:\Users\practica\Desktop\RedSocial - parcial\RedSocial\Bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\practica\Desktop\RedSocial - parcial\RedSocial\Bin\Debug\Microsoft.Phone.Controls.xml
+C:\Users\practica\Desktop\RedSocial - parcial\RedSocial\Bin\Debug\Microsoft.Phone.Controls.Maps.xml
+C:\Users\practica\Desktop\RedSocial - parcial\RedSocial\Bin\Debug\System.Windows.Interactivity.xml
+C:\Users\practica\Desktop\RedSocial - parcial\RedSocial\Bin\Debug\cs-CZ\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\practica\Desktop\RedSocial - parcial\RedSocial\Bin\Debug\da-DK\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\practica\Desktop\RedSocial - parcial\RedSocial\Bin\Debug\de-DE\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\practica\Desktop\RedSocial - parcial\RedSocial\Bin\Debug\el-GR\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\practica\Desktop\RedSocial - parcial\RedSocial\Bin\Debug\en-GB\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\practica\Desktop\RedSocial - parcial\RedSocial\Bin\Debug\es-ES\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\practica\Desktop\RedSocial - parcial\RedSocial\Bin\Debug\fi-FI\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\practica\Desktop\RedSocial - parcial\RedSocial\Bin\Debug\fr-FR\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\practica\Desktop\RedSocial - parcial\RedSocial\Bin\Debug\hu-HU\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\practica\Desktop\RedSocial - parcial\RedSocial\Bin\Debug\it-IT\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\practica\Desktop\RedSocial - parcial\RedSocial\Bin\Debug\ja-JP\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\practica\Desktop\RedSocial - parcial\RedSocial\Bin\Debug\ko-KR\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\practica\Desktop\RedSocial - parcial\RedSocial\Bin\Debug\nb-NO\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\practica\Desktop\RedSocial - parcial\RedSocial\Bin\Debug\nl-NL\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\practica\Desktop\RedSocial - parcial\RedSocial\Bin\Debug\pl-PL\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\practica\Desktop\RedSocial - parcial\RedSocial\Bin\Debug\pt-BR\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\practica\Desktop\RedSocial - parcial\RedSocial\Bin\Debug\pt-PT\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\practica\Desktop\RedSocial - parcial\RedSocial\Bin\Debug\ru-RU\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\practica\Desktop\RedSocial - parcial\RedSocial\Bin\Debug\sv-SE\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\practica\Desktop\RedSocial - parcial\RedSocial\Bin\Debug\zh-CN\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\practica\Desktop\RedSocial - parcial\RedSocial\Bin\Debug\zh-TW\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\practica\Desktop\RedSocial - parcial\RedSocial\Bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+C:\Users\practica\Desktop\RedSocial - parcial\RedSocial\Bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+C:\Users\practica\Desktop\RedSocial - parcial\RedSocial\Bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+C:\Users\practica\Desktop\RedSocial - parcial\RedSocial\Bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+C:\Users\practica\Desktop\RedSocial - parcial\RedSocial\Bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+C:\Users\practica\Desktop\RedSocial - parcial\RedSocial\Bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+C:\Users\practica\Desktop\RedSocial - parcial\RedSocial\Bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+C:\Users\practica\Desktop\RedSocial - parcial\RedSocial\Bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+C:\Users\practica\Desktop\RedSocial - parcial\RedSocial\Bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+C:\Users\practica\Desktop\RedSocial - parcial\RedSocial\Bin\Debug\de\System.Windows.Interactivity.resources.dll
+C:\Users\practica\Desktop\RedSocial - parcial\RedSocial\Bin\Debug\en\System.Windows.Interactivity.resources.dll
+C:\Users\practica\Desktop\RedSocial - parcial\RedSocial\Bin\Debug\es\System.Windows.Interactivity.resources.dll
+C:\Users\practica\Desktop\RedSocial - parcial\RedSocial\Bin\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\Users\practica\Desktop\RedSocial - parcial\RedSocial\Bin\Debug\it\System.Windows.Interactivity.resources.dll
+C:\Users\practica\Desktop\RedSocial - parcial\RedSocial\Bin\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\Users\practica\Desktop\RedSocial - parcial\RedSocial\Bin\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\Users\practica\Desktop\RedSocial - parcial\RedSocial\Bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\practica\Desktop\RedSocial - parcial\RedSocial\Bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\practica\Desktop\RedSocial - parcial\RedSocial\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\practica\Desktop\RedSocial - parcial\RedSocial\obj\Debug\App.g.cs
+C:\Users\practica\Desktop\RedSocial - parcial\RedSocial\obj\Debug\MainPage.g.cs
+C:\Users\practica\Desktop\RedSocial - parcial\RedSocial\obj\Debug\LoginRegistroPage.g.cs
+C:\Users\practica\Desktop\RedSocial - parcial\RedSocial\obj\Debug\RedSocial.g.resources
+C:\Users\practica\Desktop\RedSocial - parcial\RedSocial\obj\Debug\RedSocial.StringsResource.resources
+C:\Users\practica\Desktop\RedSocial - parcial\RedSocial\obj\Debug\RedSocial.dll
+C:\Users\practica\Desktop\RedSocial - parcial\RedSocial\obj\Debug\RedSocial.pdb
+C:\Users\practica\Desktop\RedSocial - parcial\RedSocial\obj\Debug\XapCacheFile.xml
+C:\Users\practica\Desktop\RedSocial - parcial\RedSocial\obj\Debug\GenerateResource.read.0.tlog
+C:\Users\practica\Desktop\RedSocial - parcial\RedSocial\obj\Debug\GenerateResource.write.0.tlog
+C:\Users\practica\Desktop\RedSocial - parcial\RedSocial\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\practica\Desktop\RedSocial - parcial\RedSocial\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\Ivan\Documents\Visual Studio 2010\Projects\RedSocial\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Ivan\Documents\Visual Studio 2010\Projects\RedSocial\obj\Debug\RedSocial.g.resources
+C:\Users\Ivan\Documents\Visual Studio 2010\Projects\RedSocial\obj\Debug\RedSocial.StringsResource.resources
+C:\Users\Ivan\Documents\Visual Studio 2010\Projects\RedSocial\Bin\Debug\ApplicationIcon.png
+C:\Users\Ivan\Documents\Visual Studio 2010\Projects\RedSocial\Bin\Debug\Background.png
+C:\Users\Ivan\Documents\Visual Studio 2010\Projects\RedSocial\Bin\Debug\RedSocial.dll
+C:\Users\Ivan\Documents\Visual Studio 2010\Projects\RedSocial\Bin\Debug\RedSocial.pdb
+C:\Users\Ivan\Documents\Visual Studio 2010\Projects\RedSocial\Bin\Debug\AppManifest.xaml
+C:\Users\Ivan\Documents\Visual Studio 2010\Projects\RedSocial\Bin\Debug\RedSocial.xap
+C:\Users\Ivan\Documents\Visual Studio 2010\Projects\RedSocial\Bin\Debug\Microsoft.Advertising.Mobile.dll
+C:\Users\Ivan\Documents\Visual Studio 2010\Projects\RedSocial\Bin\Debug\Microsoft.Advertising.Mobile.UI.dll
+C:\Users\Ivan\Documents\Visual Studio 2010\Projects\RedSocial\Bin\Debug\Microsoft.Expression.Drawing.dll
+C:\Users\Ivan\Documents\Visual Studio 2010\Projects\RedSocial\Bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\Ivan\Documents\Visual Studio 2010\Projects\RedSocial\Bin\Debug\Microsoft.Phone.Controls.dll
+C:\Users\Ivan\Documents\Visual Studio 2010\Projects\RedSocial\Bin\Debug\Microsoft.Phone.Controls.Maps.dll
+C:\Users\Ivan\Documents\Visual Studio 2010\Projects\RedSocial\Bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Ivan\Documents\Visual Studio 2010\Projects\RedSocial\Bin\Debug\Microsoft.Advertising.Mobile.UI.xml
+C:\Users\Ivan\Documents\Visual Studio 2010\Projects\RedSocial\Bin\Debug\Microsoft.Expression.Drawing.xml
+C:\Users\Ivan\Documents\Visual Studio 2010\Projects\RedSocial\Bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\Ivan\Documents\Visual Studio 2010\Projects\RedSocial\Bin\Debug\Microsoft.Phone.Controls.xml
+C:\Users\Ivan\Documents\Visual Studio 2010\Projects\RedSocial\Bin\Debug\Microsoft.Phone.Controls.Maps.xml
+C:\Users\Ivan\Documents\Visual Studio 2010\Projects\RedSocial\Bin\Debug\System.Windows.Interactivity.xml
+C:\Users\Ivan\Documents\Visual Studio 2010\Projects\RedSocial\Bin\Debug\cs-CZ\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\Ivan\Documents\Visual Studio 2010\Projects\RedSocial\Bin\Debug\da-DK\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\Ivan\Documents\Visual Studio 2010\Projects\RedSocial\Bin\Debug\de-DE\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\Ivan\Documents\Visual Studio 2010\Projects\RedSocial\Bin\Debug\el-GR\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\Ivan\Documents\Visual Studio 2010\Projects\RedSocial\Bin\Debug\en-GB\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\Ivan\Documents\Visual Studio 2010\Projects\RedSocial\Bin\Debug\es-ES\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\Ivan\Documents\Visual Studio 2010\Projects\RedSocial\Bin\Debug\fi-FI\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\Ivan\Documents\Visual Studio 2010\Projects\RedSocial\Bin\Debug\fr-FR\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\Ivan\Documents\Visual Studio 2010\Projects\RedSocial\Bin\Debug\hu-HU\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\Ivan\Documents\Visual Studio 2010\Projects\RedSocial\Bin\Debug\it-IT\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\Ivan\Documents\Visual Studio 2010\Projects\RedSocial\Bin\Debug\ja-JP\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\Ivan\Documents\Visual Studio 2010\Projects\RedSocial\Bin\Debug\ko-KR\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\Ivan\Documents\Visual Studio 2010\Projects\RedSocial\Bin\Debug\nb-NO\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\Ivan\Documents\Visual Studio 2010\Projects\RedSocial\Bin\Debug\nl-NL\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\Ivan\Documents\Visual Studio 2010\Projects\RedSocial\Bin\Debug\pl-PL\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\Ivan\Documents\Visual Studio 2010\Projects\RedSocial\Bin\Debug\pt-BR\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\Ivan\Documents\Visual Studio 2010\Projects\RedSocial\Bin\Debug\pt-PT\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\Ivan\Documents\Visual Studio 2010\Projects\RedSocial\Bin\Debug\ru-RU\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\Ivan\Documents\Visual Studio 2010\Projects\RedSocial\Bin\Debug\sv-SE\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\Ivan\Documents\Visual Studio 2010\Projects\RedSocial\Bin\Debug\zh-CN\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\Ivan\Documents\Visual Studio 2010\Projects\RedSocial\Bin\Debug\zh-TW\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\Ivan\Documents\Visual Studio 2010\Projects\RedSocial\Bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Ivan\Documents\Visual Studio 2010\Projects\RedSocial\Bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Ivan\Documents\Visual Studio 2010\Projects\RedSocial\Bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Ivan\Documents\Visual Studio 2010\Projects\RedSocial\Bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Ivan\Documents\Visual Studio 2010\Projects\RedSocial\Bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Ivan\Documents\Visual Studio 2010\Projects\RedSocial\Bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Ivan\Documents\Visual Studio 2010\Projects\RedSocial\Bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Ivan\Documents\Visual Studio 2010\Projects\RedSocial\Bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Ivan\Documents\Visual Studio 2010\Projects\RedSocial\Bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Ivan\Documents\Visual Studio 2010\Projects\RedSocial\Bin\Debug\de\System.Windows.Interactivity.resources.dll
+C:\Users\Ivan\Documents\Visual Studio 2010\Projects\RedSocial\Bin\Debug\en\System.Windows.Interactivity.resources.dll
+C:\Users\Ivan\Documents\Visual Studio 2010\Projects\RedSocial\Bin\Debug\es\System.Windows.Interactivity.resources.dll
+C:\Users\Ivan\Documents\Visual Studio 2010\Projects\RedSocial\Bin\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\Users\Ivan\Documents\Visual Studio 2010\Projects\RedSocial\Bin\Debug\it\System.Windows.Interactivity.resources.dll
+C:\Users\Ivan\Documents\Visual Studio 2010\Projects\RedSocial\Bin\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\Users\Ivan\Documents\Visual Studio 2010\Projects\RedSocial\Bin\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\Users\Ivan\Documents\Visual Studio 2010\Projects\RedSocial\Bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\Ivan\Documents\Visual Studio 2010\Projects\RedSocial\Bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\Ivan\Documents\Visual Studio 2010\Projects\RedSocial\obj\Debug\RedSocial.dll
+C:\Users\Ivan\Documents\Visual Studio 2010\Projects\RedSocial\obj\Debug\RedSocial.pdb
+C:\Users\Ivan\Documents\Visual Studio 2010\Projects\RedSocial\obj\Debug\XapCacheFile.xml
+C:\Users\Ivan\Documents\Visual Studio 2010\Projects\RedSocial\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\Ivan\Documents\Visual Studio 2010\Projects\RedSocial\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\Ivan\Documents\Visual Studio 2010\Projects\RedSocial\obj\Debug\App.g.i.cs
+C:\Users\Ivan\Documents\Visual Studio 2010\Projects\RedSocial\obj\Debug\MainPage.g.i.cs
+C:\Users\Ivan\Documents\Visual Studio 2010\Projects\RedSocial\obj\Debug\Detalle.g.i.cs
+C:\Users\Ivan\Documents\Visual Studio 2010\Projects\RedSocial\obj\Debug\LoginRegistroPage.g.i.cs

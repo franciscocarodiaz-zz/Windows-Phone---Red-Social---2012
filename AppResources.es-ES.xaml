@@ -1,0 +1,23 @@
+﻿<ResourceDictionary
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:System="clr-namespace:System;assembly=mscorlib">
+	<!-- Se deben establecer aquí las entradas del diccionario de recursos. -->
+	<System:String x:Key="UserIdTb">Name</System:String>
+	<System:String x:Key="PasswordTb">Password</System:String>
+	<System:String x:Key="tbNameLogIn">enter your user id</System:String>
+	<System:String x:Key="tbPasswordLogin">introduce your password</System:String>
+	<System:String x:Key="btLogin">Let's go!</System:String>
+	<System:String x:Key="AppMainTitle">SOCIAL INN</System:String>
+	<System:String x:Key="RegisterItem">Register</System:String>
+	<System:String x:Key="Login">Login</System:String>
+	<System:String x:Key="btRegister">Register now</System:String>
+	<System:String x:Key="Checking_user">Please, wait while user credential is checked</System:String>
+	<Color x:Key="colorTextBoxInferior">#FFE4E2E2</Color>
+	<Color x:Key="colorTextBoxSuperior">#FFA6ADED</Color>
+	<Color x:Key="colorTextBoxInferiorError">#FFEB5757</Color>
+	<System:String x:Key="FriendsPiLabel">Friends</System:String>
+	<System:String x:Key="friendInfoTitle">Friend Info</System:String>
+	<System:String x:Key="AddFriendButton">Add Friend</System:String>
+	<System:String x:Key="OptionsItem">Options</System:String>
+	<System:String x:Key="AppTitle">Friends'R'us</System:String>
+</ResourceDictionary>
